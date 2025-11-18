@@ -25,12 +25,14 @@ else:    print(f"{year}년은 평년(common year)입니다.")
 import  random 
 op = random.randint(a : 1, b: 2)
 x= random.randint(a : 1, b : 100)
-y= random.randint(1,100)
+y= random.randint(a : 1, b : 100)
 if op == 1:
 answer = int(input(f"{x} + {y} ="))
 if answer == x+y:
 print("정답입니다.")
-else: print("틀렸습니다.")else:    answer = int(input(f"{x} + {y} ="))    if answer == x-y:        print("정답입니다.")    else:        print("틀렸습니다.")`
+else: 
+print("틀렸습니다.")
+else:    answer = int(input(f"{x} + {y} ="))    if answer == x-y:        print("정답입니다.")    else:        print("틀렸습니다.")`
 
 #점수를 입력받아 등급을 출력하는 프로그램을 작성하시오.
 #90점이상 A, 80점 이상 B, 70점 이상 C, 60점 이상 D, 60점 미만은 F
