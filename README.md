@@ -39,3 +39,22 @@ grade="D"
 else:   
 grade="F"
 print(f"점수는 {score}이고 등급은 {grade} 입니다.")`
+--------------
+for 구문 예시
+evenSum = 0
+oddSum = 0
+sevenSum = 0
+
+for i in range(101):
+    if i % 2 == 0:
+        evenSum += i
+    else:
+        oddSum += i
+    if i % 7==0:
+        sevenSum += i
+
+
+print(f"1부터 100까지의 홀수들의 합은  {oddSum} 입니다.")
+print(f"1부터 100까지의 짝수들의 합은  {evenSum} 입니다.")
+print(f"1부터 100까지의 7의 배수들의 합은  {sevenSum} 입니다.")
+
