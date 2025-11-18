@@ -21,8 +21,10 @@ else:    print(f"{year}년은 평년(common year)입니다.")
 연산자 우선순위가 다 정해져 있다(공부하기)
 
 3)
-import  randomo = random.randint(1,2)
-x= random.randint(1,100)
+
+import  random 
+op = random.randint(a : 1, b: 2)
+x= random.randint(a : 1, b : 100)
 y= random.randint(1,100)
 if op == 1:
 answer = int(input(f"{x} + {y} ="))
