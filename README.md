@@ -13,17 +13,22 @@ print(f"배송비는 {shippingCost} 입니다.")
 
 2)윤년
 
-`year = int(input("년도 입력 : "))`
-
-`if year %4==0 and year % 100 != 0 or year %400 ==0:`    
-
-`print(f"{year}년은 윤년(leap year)입니다.")`
-
-`else:    print(f"{year}년은 평년(common year)입니다.")`
+year = int(input("년도 입력 : "))`
+if year %4==0 and year % 100 != 0 or year %400 ==0:
+print(f"{year}년은 윤년(leap year)입니다.")
+else:    print(f"{year}년은 평년(common year)입니다.")
 
 연산자 우선순위가 다 정해져 있다(공부하기)
 
-`import  randomop = random.randint(1,2)x= random.randint(1,100)y= random.randint(1,100)if op ==1:    answer = int(input(f"{x} + {y} ="))    if answer == x+y:        print("정답입니다.")    else:        print("틀렸습니다.")else:    answer = int(input(f"{x} + {y} ="))    if answer == x-y:        print("정답입니다.")    else:        print("틀렸습니다.")`
+3)
+import  randomo = random.randint(1,2)
+x= random.randint(1,100)
+y= random.randint(1,100)
+if op == 1:
+answer = int(input(f"{x} + {y} ="))
+if answer == x+y:
+print("정답입니다.")
+else: print("틀렸습니다.")else:    answer = int(input(f"{x} + {y} ="))    if answer == x-y:        print("정답입니다.")    else:        print("틀렸습니다.")`
 
 #점수를 입력받아 등급을 출력하는 프로그램을 작성하시오.
 #90점이상 A, 80점 이상 B, 70점 이상 C, 60점 이상 D, 60점 미만은 F
