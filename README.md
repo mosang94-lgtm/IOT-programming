@@ -1,3 +1,5 @@
+오늘 주제  : 1.if 조건식 2. if/else 조건식 3. if/elif 조건식
+
 1)배송비
 
 price = int(input("상품의 가격 : "))
